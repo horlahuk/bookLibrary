@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#bookForm {
+  display: none;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#newBookButton {
+  margin: 30px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+
+#newBookButton:hover {
+  background-color: #e0e0e0;
+}
+
+#bookForm input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#bookForm button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+#bookForm button:hover {
+  background-color: #e0e0e0;
+}
+
+#bookContainer {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bookCard {
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+.bookCard button {
+  width: 45%;
+  height: 30px;
+  margin-right: 6px;
+}
